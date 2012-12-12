@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<script src="bpmtrigger.js"></script>
+		<script src="audiotrigger.js"></script>
 	</head>
 	<body>
 		<audio id="audio">
@@ -15,7 +15,7 @@
 				var audio = document.getElementById('audio');
 				audio.play();
 			
-				BPM.trigger(audio, 328, hitme);
+				audiotrigger.set(audio, 164, hitme, true);
 			}
 			window.onload = init;
 		</script>

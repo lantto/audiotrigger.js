@@ -1,4 +1,4 @@
-bpm-trigger
+audiotrigger.js
 ===========
 
-Synchronize BPM triggers with an HTML5 audio track.
+Fire triggers based on time and BPM of HTML5 audio tracks.
